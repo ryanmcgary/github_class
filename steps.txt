@@ -4,7 +4,17 @@ Be flexible with branches
   3. cherry-pick a change from branch into master
   4. Special case (new file)
 
-http://note.io/1rA3reW
+Merge your branch!
+  5. Merge Master into branch!
+  6. Abort!
+  7. Continue then UNDO!
+  8. Rebase branch on Master
+  9. Abort!
+  10. Continue then Undo!
+
+Getting your branch into master!  
+  Merge vs Rebase
+  http://note.io/1rA3reW
 
 
 
@@ -20,22 +30,17 @@ Moving between branches without fear:
   How to update your feature branch with rebase!
     git rebase
     git rebase --continue
-    git rebase -i --abort
+    git rebase --abort
 
   Creating a new file in the wrong branch!?!?
-    git stage
-    git stash --keep-index
-    delete file
-    git checkout branch
-    git stash apply (usually a merge conflict)
-
+    See 4 above. Don't stage or stash it just clear other uncommited changes and change your branch
 
   Reset a bad merge  
     git reset --hard HEAD^ or HEAD^2?
   
-
   Reset a bad rebase/commit and dump it into staging
-  git reset --soft HEAD~1
+    git reset --soft HEAD~1
 
-  git reflog
-  git reset --hard HEAD@{"prior to start of rebase"}
+  Reset a bad branch rebase (when used as merge)
+    git reflog
+    git reset --hard HEAD@{"prior to start of rebase"}
