@@ -19,4 +19,4 @@ Moving between branches without fear:
   git checkout branch
   git stash apply (usually a merge conflict)
 
-  git reset -HEAD^
+  git reset --hard HEAD^
