@@ -1,7 +1,10 @@
-1. Add changes to index.js at top and bottom. show how to stage individual changes
-2. Stash apply a change to master after writing it in branch
-3. cherry-pick a change from branch into master
+Be flexible with branches
+  1. Add changes to index.js at top and bottom. show how to stage individual changes
+  2. Stash apply a change to master after writing it in branch
+  3. cherry-pick a change from branch into master
+  4. Special case (new file)
 
+http://note.io/1rA3reW
 
 
 
