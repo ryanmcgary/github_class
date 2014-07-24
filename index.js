@@ -47,3 +47,9 @@ var module = (function (window){
     }
   }
 })(window);
+
+
+function addingAnotherFunctionJustToMakeAnotherInterstitialCommit (argument) {
+  // Yay
+  console.log("Yay");
+}
