@@ -4,19 +4,28 @@ Moving between branches without fear:
 
 
   How to update your feature branch with merge!
-  git merge
-  git reset --merge
+    git merge
+    git reset --merge
 
   How to update your feature branch with rebase!
-  git rebase
-  git rebase --continue
-  git rebase -i --abort
+    git rebase
+    git rebase --continue
+    git rebase -i --abort
 
   Creating a new file in the wrong branch!?!?
-  git stage
-  git stash --keep-index
-  delete file
-  git checkout branch
-  git stash apply (usually a merge conflict)
+    git stage
+    git stash --keep-index
+    delete file
+    git checkout branch
+    git stash apply (usually a merge conflict)
 
-  git reset --hard HEAD^
+
+  Reset a bad merge  
+    git reset --hard HEAD^ or HEAD^2?
+  
+
+  Reset a bad rebase/commit and dump it into staging
+  git reset --soft HEAD~1
+
+  git reflog
+  git reset --hard HEAD@{"prior to start of rebase"}
