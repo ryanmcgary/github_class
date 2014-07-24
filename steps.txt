@@ -2,7 +2,15 @@ Moving between branches without fear:
   git stash, git stash apply, commit change into master
   git commit, git stash cherry-pick commit from branch to master, git stash apply
 
+  git merge
   git reset --merge
 
-
+  git rebase
   git rebase --continue
+  git rebase -i --abort
+
+  git stage
+  git stash --keep-index
+  delete file
+  git checkout branch
+  git stash apply (usually a merge conflict)
