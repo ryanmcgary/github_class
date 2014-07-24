@@ -7,7 +7,8 @@ function anFunctionThatWillConflict (arg) {
   // Then we will show both rebase and merge methods for resolving
   Things = ["blah","blah","blah"]
   for (var i = Things.length - 1; i >= 0; i--) {
-    Things[i]
+    bob = [];
+    bob << Things[i]
   };
 }
 
