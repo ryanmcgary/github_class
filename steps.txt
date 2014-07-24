@@ -1,0 +1,3 @@
+Moving between branches without fear:
+  git stash, git stash apply, commit change into master
+  git commit, git stash cherry-pick commit from branch to master, git stash apply
