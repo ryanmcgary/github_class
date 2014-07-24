@@ -5,9 +5,10 @@ function anFunctionThatWillConflict (arg) {
   // After branching this function, we will incorrectly update it in the branch
   // Then we will fix the master!
   // Then we will show both rebase and merge methods for resolving
+  var bob = [];
   Things = ["blah","blah","blah"]
   for (var i = Things.length - 1; i >= 0; i--) {
-    Things[i]
+    bob << Things[i]
   };
 }
 
