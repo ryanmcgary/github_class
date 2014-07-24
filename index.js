@@ -15,6 +15,11 @@ function anFunctionThatWillConflict (arg) {
 
 // BLAH BLAH BLAH
 
+function addedAnotherFunction (arg) {
+  console.log("Oh Noooo. Oh Yeah!")
+  // adding more crap to master!
+}
+
 var module = (function (window){
   var localVariables, eAD, student;
   self = this;
