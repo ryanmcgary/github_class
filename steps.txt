@@ -46,4 +46,9 @@ Moving between branches without fear:
     git reset --hard HEAD@{"prior to start of rebase"}
 
 
-    IF you want your merge history to look cool, use --no-ff
+  Additional Merge options
+    IF you want your merge history keep branches visually seperate: use --no-ff
+
+    If you want to test a merge --no-commit
+
+    If you want to ditch history and act as if all a branches changes are unstaged merge --squash --no-commit
