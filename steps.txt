@@ -44,3 +44,6 @@ Moving between branches without fear:
   Reset a bad branch rebase (when used as merge)
     git reflog
     git reset --hard HEAD@{"prior to start of rebase"}
+
+
+    IF you want your merge history to look cool, use --no-ff
